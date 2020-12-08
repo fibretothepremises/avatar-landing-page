@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav&display=swap');
+
+/* GLOBALS */
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 2rem; 
+    background-color: rgb(185, 182, 182);
+}
+
+
+a:link {
+    color: black;
+    text-decoration: none;  
+}
+
+a:hover {
+    color: rgb(233, 0, 0);
+}
+
+a:active {
+    color: ;
+}
+
+a:visited {
+    color: black;
+}
+
+li {
+    display: inline-block;
+    background-color: ;
+    text-align: center;
+}
+
+p {
+    background-color: ;
+    text-align: center;
+}
+
+
+/* HEADER */
+
+header#header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+#header-img {
+    display: block;
+    margin: 150px auto;
+    width: 175px;
+    height: 175px;
+}
+
+
+#nav-bar {
+    width: 700px;
+    margin: 0px auto;
+    background-color: ;
+    
+    font-size: 2.5rem;
+}
+
+ul.ul-nav {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    background-color: ;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: ;
+}
+
+a.nav-link {
+    display: block;
+    text-decoration: none;
+    font-weight: normal;
+    text-align: center;
+    margin: 5px auto;
+    padding: 0px 0px;
+    border-radius: 10px;
+}
+
+@media (max-width: 770px) {
+    #nav-bar {
+        width: 100%;
+    }
+    #header-img {
+        margin-bottom: 100px;
+    }
+    ul.ul-nav {
+        flex-direction: column;
+    }
+}
+
+/*********************** CONTAINER *************************/
+
+div.container {
+    position: relative;
+    top: 575px;
+}
+
+/* DOWNLOAD */
+
+section#download {
+    width: 700px;
+    margin: 20px auto;
+    border: 0.4rem solid rgb(0, 0, 0);
+    border-radius: 1rem;
+    padding: 65px 40px;
+
+    background-image: linear-gradient(to right, yellow, rgb(255, 115, 0));
+}
+
+img#img-apple {
+    width: 150px;
+}
+
+img#img-android {
+    width: 150px;
+}
+
+li#li-apple {
+    justify-self: right;
+    padding-right: 5px;
+}
+
+li#li-android {
+    justify-self: left;
+    padding-left: 5px;
+}
+
+ul.ul-dl {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    background-color: ;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+ul.ul-features {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    background-color: ;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: ;   
+}
+
+
+
+#p-dl {
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+}
+
+/* FEATURES */
+
+section#features {
+    width: 700px;
+    margin: 20px auto;
+    border: 0.4rem solid rgb(0, 0, 0);
+    border-radius: 1rem;
+    padding: 65px 40px; 
+
+    background-image: radial-gradient(yellow, rgb(231, 35, 0));
+}
+
+a.a-feature {
+    background-color: rgba(253, 255, 126, 0.336);
+    border: 3px solid black;
+    border-radius: 80px;
+    height: auto;
+    padding: 60px 0;
+    text-align: center;
+    margin: 10px;
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+/* DEMOS */
+
+section#demos {
+    width: 700px;
+    margin: 20px auto;
+    border: 0.4rem solid rgb(0, 0, 0);
+    border-radius: 1rem;
+    padding: 65px 40px; 
+
+    background-image: linear-gradient(orange, yellow, rgb(233, 54, 54));
+}
+
+.vid-desc-p {
+    background-color: rgba(253, 255, 126, 0.432);
+    border: 3px solid black;
+    border-radius: 80px;
+    width: 90%;
+    height: auto;
+    padding: 6px 0;
+    text-align: center;
+    margin: 25px auto;
+    font-size: 1.8rem;
+    font-weight: normal;
+}
+
+#video {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+/* FOOTER */
+
+footer {
+    padding-bottom: 35px;
+}
+
+p.footer-p {
+    padding: 50px;
+    margin: 50px;
+    font-size: 1.5rem;
+}
+
+form#form {
+    height: auto;
+    width: 700px;
+    margin: 0 auto;
+    color: rgb(185, 182, 182);
+    font-weight: 500;
+    border: 4px solid black;
+    border-radius: 15px;
+    padding: 40px;
+    background-image: linear-gradient(50deg, rgba(37, 97, 209, 0.5) 70%, rgba(197, 0, 197, 0.5), rgba(37, 97, 209, 0.5) 80%);
+}
+
+#email-label{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    text-align: left;
+    color: rgb(0, 0, 0);
+}
+
+#email {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+    font-size: 1.5rem;
+}
+
+#submit {
+    width: 50%;
+    color: black;
+    padding: 12px 20px;
+    font-weight: bold;
+    background-color: rgb(253, 223, 156);
+    margin: 8px auto;
+    display: block;
+    
+    border-radius: 4px;
+    
+
+    font-size: 1.5rem;
+}
